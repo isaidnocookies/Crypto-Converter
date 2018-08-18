@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>DashboardPage.qml</file>
+        <file>DashboardListModel.qml</file>
+        <file>CryptoWalletDelegate.qml</file>
+        <file>QrScannerView.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>assets/threshodlLogo_landing.png</file>
+        <file>assets/backButtonIcon.png</file>
+        <file>assets/bitcoinIcon.png</file>
+        <file>assets/brightBitcoinIcon.png</file>
+        <file>assets/darkBitcoinIcon.png</file>
+        <file>assets/dashIcon.png</file>
+        <file>assets/downNavArrowIcon.png</file>
+        <file>assets/ethereumIcon.png</file>
+        <file>assets/litecoinIcon.png</file>
+        <file>assets/mailButtonIcon.png</file>
+        <file>assets/refreshButtonIcon.png</file>
+        <file>assets/settingsButtonIcon.png</file>
+        <file>assets/upNavArrowIcon.png</file>
+        <file>assets/zcashIcon.png</file>
+        <file>assets/scanQrButtonIcon.png</file>
+        <file>assets/whiteBackButtonIcon.png</file>
+        <file>assets/qrScannerGuides.png</file>
+        <file>assets/clipboardPasteIcon.png</file>
+        <file>assets/testnetBitcoinIcon.png</file>
+        <file>assets/addWalletIcon.png</file>
+        <file>assets/emailIcon.png</file>
+        <file>assets/testnetLitecoinIcon.png</file>
+        <file>assets/bitcoinCashIcon.png</file>
+        <file>assets/dogeIcon.png</file>
+        <file>assets/lumensIcon.png</file>
+        <file>assets/moneroIcon.png</file>
+        <file>assets/sureRemitIcon.png</file>
+        <file>assets/zencashIcon.png</file>
+        <file>assets/rippleIcon.png</file>
+        <file>assets/digibyteIcon.png</file>
+        <file>assets/infoIcon.png</file>
+        <file>assets/threebxLogo.png</file>
+    </qresource>
+    <qresource prefix="/components"/>
+</RCC>

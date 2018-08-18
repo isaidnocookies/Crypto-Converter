@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/detector/LinesSampler.cpp \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/detector/LinesSampler.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/BitMatrix.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Counted.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/BitArray.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ZXing.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Types.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/IllegalArgumentException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/Exception.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Array.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ResultPoint.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Point.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/BitMatrixParser.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ReaderException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/FormatException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/NotFoundException.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qglobal.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qconfig.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qtcore-config.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qsystemdetection.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qprocessordetection.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qcompilerdetection.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qtypeinfo.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qsysinfo.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qlogging.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qflags.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qatomic.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qbasicatomic.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qatomic_cxx11.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qgenericatomic.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qglobalstatic.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qmutex.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qnumeric.h \
+  /Users/christopherforte/Qt/5.10.1/ios/include/QtCore/qversiontagging.h

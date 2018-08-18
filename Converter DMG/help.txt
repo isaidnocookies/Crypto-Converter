@@ -1,0 +1,5 @@
+https://github.com/LinusU/node-appdmg
+
+appdmg <json-path> <dmg-path>
+
+appdmg converterdmg.json ThreeBxConverter.dmg

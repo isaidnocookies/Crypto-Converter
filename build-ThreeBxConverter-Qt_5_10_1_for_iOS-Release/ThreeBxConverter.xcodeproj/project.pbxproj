@@ -1,0 +1,5060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/ -f ThreeBxConverter.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		E77323CC633B8583C289D127 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/Core/qstringmath.cpp";
+			name = "qstringmath.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		15499D7311AC08C9360EFF4F = {
+			fileRef = "E77323CC633B8583C289D127";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C6258C0EED01FDEC97458241 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/CameraImageWrapper.cpp";
+			name = "CameraImageWrapper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B5889332416434E97E6856C3 = {
+			fileRef = "C6258C0EED01FDEC97458241";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BBED0DBD75E1AD917DA886E5 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXing.cpp";
+			name = "QZXing.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F8E14141D1A9CB359E209395 = {
+			fileRef = "BBED0DBD75E1AD917DA886E5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FE9E9459652DF5786CB0B290 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/ImageHandler.cpp";
+			name = "ImageHandler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2B0D698396B5EEF244CF444E = {
+			fileRef = "FE9E9459652DF5786CB0B290";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		529DC15A525D032EC890ED53 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ResultIO.cpp";
+			name = "ResultIO.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AC688F5C2140A3FDCC8F2F97 = {
+			fileRef = "529DC15A525D032EC890ED53";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2E844E784B9AEB1B3B320600 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/InvertedLuminanceSource.cpp";
+			name = "InvertedLuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7590D0DD480350BA1D278BD3 = {
+			fileRef = "2E844E784B9AEB1B3B320600";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		510EA55664531732A7C6B53E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ChecksumException.cpp";
+			name = "ChecksumException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1DF59D41A50C580C5C31FF24 = {
+			fileRef = "510EA55664531732A7C6B53E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A736427AE1F80BE9BEF08068 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ResultPointCallback.cpp";
+			name = "ResultPointCallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6C9DF77F3E9F34D0812239F6 = {
+			fileRef = "A736427AE1F80BE9BEF08068";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0CD3B7709A5AF59E4B423E0D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ResultPoint.cpp";
+			name = "ResultPoint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		05A5F68ACFCD3E6801937EDB = {
+			fileRef = "0CD3B7709A5AF59E4B423E0D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		05C200C3CE3CE097179B8A59 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Result.cpp";
+			name = "Result.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		06B78A90C052B84C9607BA64 = {
+			fileRef = "05C200C3CE3CE097179B8A59";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		66E47127B73E36231E41263F = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Reader.cpp";
+			name = "Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6CD37A89A4718B63FA7AD0F3 = {
+			fileRef = "66E47127B73E36231E41263F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BD48445C04FCD5916F217478 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/MultiFormatReader.cpp";
+			name = "MultiFormatReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3AD8DA094C768F70339C2164 = {
+			fileRef = "BD48445C04FCD5916F217478";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5A91A89B5E6CA0684E37C393 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/LuminanceSource.cpp";
+			name = "LuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		72A33FA902C900610CABE6C2 = {
+			fileRef = "5A91A89B5E6CA0684E37C393";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A0D1197B46F05CF047AFA5EB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/FormatException.cpp";
+			name = "FormatException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		39757BB1CAAEB79719E3AD1D = {
+			fileRef = "A0D1197B46F05CF047AFA5EB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F591862C32E2DE2DC3D3BF63 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Exception.cpp";
+			name = "Exception.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9C42F2716FC7575E5C410761 = {
+			fileRef = "F591862C32E2DE2DC3D3BF63";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4434F22AEEE3E78FE3B64FBC = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/DecodeHints.cpp";
+			name = "DecodeHints.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BD7BD7158A0AA75E727B1249 = {
+			fileRef = "4434F22AEEE3E78FE3B64FBC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D1A9EE56A2A9E8E4AA79B795 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/BinaryBitmap.cpp";
+			name = "BinaryBitmap.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DC4F0A6A1CC2F9178840A083 = {
+			fileRef = "D1A9EE56A2A9E8E4AA79B795";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4E000AB288BBB9CBE3E783FA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Binarizer.cpp";
+			name = "Binarizer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		00175D3F5045E4AE565E00CB = {
+			fileRef = "4E000AB288BBB9CBE3E783FA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6DFF5626C35ADB2F222B790E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/BarcodeFormat.cpp";
+			name = "BarcodeFormat.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FA78B1C8AC8BB53ECF755462 = {
+			fileRef = "6DFF5626C35ADB2F222B790E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B200D9A3827E92B3AE000915 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/AztecReader.cpp";
+			name = "AztecReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9B52B3C205538F6751EABEC8 = {
+			fileRef = "B200D9A3827E92B3AE000915";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		10DB2310BC7597618D795B67 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/AztecDetectorResult.cpp";
+			name = "AztecDetectorResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		603562C8030AD821942F3113 = {
+			fileRef = "10DB2310BC7597618D795B67";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DE341336CC1ABFAA979AAC5C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/StringUtils.cpp";
+			name = "StringUtils.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DE6685917EB78B7271B12AC6 = {
+			fileRef = "DE341336CC1ABFAA979AAC5C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		76F6921594B443B413275202 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/Str.cpp";
+			name = "Str.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		61DA0E145BBD8FE685ED7DCB = {
+			fileRef = "76F6921594B443B413275202";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		50D1940A47210F81EC42DA77 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/PerspectiveTransform.cpp";
+			name = "PerspectiveTransform.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D0C3F9BAAB3E2198BDDA7B9D = {
+			fileRef = "50D1940A47210F81EC42DA77";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		621587F2E16C2F3C2A31FF6C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/IllegalArgumentException.cpp";
+			name = "IllegalArgumentException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6A9100F1E4302EB4705F7046 = {
+			fileRef = "621587F2E16C2F3C2A31FF6C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9B82048A200F12721E71B7E0 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/HybridBinarizer.cpp";
+			name = "HybridBinarizer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		14677A72C846AB5B80CE1B58 = {
+			fileRef = "9B82048A200F12721E71B7E0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F25EBE672728011A6A6B7685 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GridSampler.cpp";
+			name = "GridSampler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C0B5E9590588EDEC1A1DB0FB = {
+			fileRef = "F25EBE672728011A6A6B7685";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BCDDFE9B974DFDABA01A0FD0 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GreyscaleRotatedLuminanceSource.cpp";
+			name = "GreyscaleRotatedLuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		35C9A08242F03CD596CECD70 = {
+			fileRef = "BCDDFE9B974DFDABA01A0FD0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C444B7431F9D8451314FDE6C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GreyscaleLuminanceSource.cpp";
+			name = "GreyscaleLuminanceSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EDE70955CDFA4320DDC85C83 = {
+			fileRef = "C444B7431F9D8451314FDE6C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7A235147234B3516F615B433 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GlobalHistogramBinarizer.cpp";
+			name = "GlobalHistogramBinarizer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E0290743C58E4AFF80F283A5 = {
+			fileRef = "7A235147234B3516F615B433";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		688F6A2372F5BA3E9A6F8584 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/DetectorResult.cpp";
+			name = "DetectorResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		58EF7E22B792DC3D3637B6DC = {
+			fileRef = "688F6A2372F5BA3E9A6F8584";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		61B7ADB4BD6DDF5447CAD1CA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/DecoderResult.cpp";
+			name = "DecoderResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		569917B694A3224FE02E50B1 = {
+			fileRef = "61B7ADB4BD6DDF5447CAD1CA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7D4814BF3E18E77AA09706ED = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/CharacterSetECI.cpp";
+			name = "CharacterSetECI.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		788C8A9873F354DFD1AF88C8 = {
+			fileRef = "7D4814BF3E18E77AA09706ED";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F9E2FE1E0DEF434B42B99888 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/BitSource.cpp";
+			name = "BitSource.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B44F8C8C79E4D52073065208 = {
+			fileRef = "F9E2FE1E0DEF434B42B99888";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		87952CE8C562FBEAB25315B9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/BitMatrix.cpp";
+			name = "BitMatrix.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		24A49A312682549F6E0A8CD6 = {
+			fileRef = "87952CE8C562FBEAB25315B9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		20316097C51919A981B9CE81 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/BitArray.cpp";
+			name = "BitArray.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9FBB9E76EF9C54FADE0F3B2E = {
+			fileRef = "20316097C51919A981B9CE81";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AAA9ACFE34F51B2D4E3B5846 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/BitArrayIO.cpp";
+			name = "BitArrayIO.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		35B70106D517375C7AA0CF57 = {
+			fileRef = "AAA9ACFE34F51B2D4E3B5846";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C215542B76FB8D58401FDB09 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/detector/WhiteRectangleDetector.cpp";
+			name = "WhiteRectangleDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B441F2E8B4B4E08C59494E1D = {
+			fileRef = "C215542B76FB8D58401FDB09";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E72ED57110D9A0A01896BBF9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/detector/MonochromeRectangleDetector.cpp";
+			name = "MonochromeRectangleDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4B3AFCF9CCA9A1C7439A882C = {
+			fileRef = "E72ED57110D9A0A01896BBF9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BCD495897AD0A034EA1B2AAD = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonException.cpp";
+			name = "ReedSolomonException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C4A45471022DFE4C9D447254 = {
+			fileRef = "BCD495897AD0A034EA1B2AAD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9E167E10643BBDBB42D48ADB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.cpp";
+			name = "ReedSolomonDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FA4364E006CEA9844C7BDDE2 = {
+			fileRef = "9E167E10643BBDBB42D48ADB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E93C95C399DD99B82611AA9B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/GenericGFPoly.cpp";
+			name = "GenericGFPoly.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		94C09E4C5C2646888651B145 = {
+			fileRef = "E93C95C399DD99B82611AA9B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A44644D5ACB64EAEBCF21C4A = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/GenericGF.cpp";
+			name = "GenericGF.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0822423F854FD462295FCCF2 = {
+			fileRef = "A44644D5ACB64EAEBCF21C4A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D569A880805D802D4E77EFBB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/DataMatrixReader.cpp";
+			name = "DataMatrixReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		133EE279813FE5EFDC61976C = {
+			fileRef = "D569A880805D802D4E77EFBB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D5B64F3B3FB83B52D93FEE45 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/UPCEReader.cpp";
+			name = "UPCEReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C8051CFA07A9B00986108C8A = {
+			fileRef = "D5B64F3B3FB83B52D93FEE45";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A6E7DC03A10FA2F686B4A6E2 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/UPCEANReader.cpp";
+			name = "UPCEANReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		01116659EDCDBF9D9F94A947 = {
+			fileRef = "A6E7DC03A10FA2F686B4A6E2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		867D9DB153FECC06C03AFB73 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/UPCAReader.cpp";
+			name = "UPCAReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1CE2503218979B8D92A8F60F = {
+			fileRef = "867D9DB153FECC06C03AFB73";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		717566605281F9178E27268D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/OneDResultPoint.cpp";
+			name = "OneDResultPoint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5098BE9025AA811114D83BA9 = {
+			fileRef = "717566605281F9178E27268D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6B2ADD4491AC9F7597AED443 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/OneDReader.cpp";
+			name = "OneDReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EDE5210D4B84C8BF5262BA5A = {
+			fileRef = "6B2ADD4491AC9F7597AED443";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D27CF7412759EC87545A333B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/MultiFormatUPCEANReader.cpp";
+			name = "MultiFormatUPCEANReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D7D91B4F395721E8F74BCDC7 = {
+			fileRef = "D27CF7412759EC87545A333B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		19FDF329D9874E7A5A75CFE6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/MultiFormatOneDReader.cpp";
+			name = "MultiFormatOneDReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8F9074ED88FFA1FEA0845F34 = {
+			fileRef = "19FDF329D9874E7A5A75CFE6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		46A13A98D32C15746E90FB7F = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/ITFReader.cpp";
+			name = "ITFReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4A2E2F40E0C6B16200B49C4B = {
+			fileRef = "46A13A98D32C15746E90FB7F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8BB11AA20935DDA301342737 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/EAN13Reader.cpp";
+			name = "EAN13Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		22FC60FBC229D1D18AB3E8F3 = {
+			fileRef = "8BB11AA20935DDA301342737";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A1D2C09C8E6CFEE755951CDE = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/EAN8Reader.cpp";
+			name = "EAN8Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		40A728F99D836C0E0B5685E6 = {
+			fileRef = "A1D2C09C8E6CFEE755951CDE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BDAB9BB79180ECC1891608F6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/Code128Reader.cpp";
+			name = "Code128Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7E31303E8F2FD1F336FAC5DE = {
+			fileRef = "BDAB9BB79180ECC1891608F6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		055FCC1AC1BB57D2B1E8CA93 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/Code39Reader.cpp";
+			name = "Code39Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CD0DDF36253775831384B1E8 = {
+			fileRef = "055FCC1AC1BB57D2B1E8CA93";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		550A173A657122C4DCA67C74 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/CodaBarReader.cpp";
+			name = "CodaBarReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		58B75B9151C55CADDBD8CE2F = {
+			fileRef = "550A173A657122C4DCA67C74";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D96D80F0425E2D0FC1249945 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/Code93Reader.cpp";
+			name = "Code93Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8EC98E0336A99B0289208A7E = {
+			fileRef = "D96D80F0425E2D0FC1249945";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FC132F6CF5B50B1748C148C9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/QRCodeReader.cpp";
+			name = "QRCodeReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D19C8B8987467A1E036DBD48 = {
+			fileRef = "FC132F6CF5B50B1748C148C9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A7F6F3BE078192CA9365512B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/MultipleBarcodeReader.cpp";
+			name = "MultipleBarcodeReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F02C08BF622015E48E3CC669 = {
+			fileRef = "A7F6F3BE078192CA9365512B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3EDF205FA14EACDE8590ECDE = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/GenericMultipleBarcodeReader.cpp";
+			name = "GenericMultipleBarcodeReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BA6606B7C320F8862525A810 = {
+			fileRef = "3EDF205FA14EACDE8590ECDE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DA6A6E015CD84ABB0A2D54F5 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/ByQuadrantReader.cpp";
+			name = "ByQuadrantReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4E75CA783FD976C09D3BE218 = {
+			fileRef = "DA6A6E015CD84ABB0A2D54F5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		959CB22EAD99D79A4A320604 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/qrcode/QRCodeMultiReader.cpp";
+			name = "QRCodeMultiReader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A681B326A7AEFA50D5BDD821 = {
+			fileRef = "959CB22EAD99D79A4A320604";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2667512617D1D0AE6CC13396 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp";
+			name = "MultiFinderPatternFinder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9F9B3A2A1CADBD43DFEC9AC3 = {
+			fileRef = "2667512617D1D0AE6CC13396";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AD9E41F60A95A94B110A6110 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/qrcode/detector/MultiDetector.cpp";
+			name = "MultiDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F23F034EF9318647645B6C5C = {
+			fileRef = "AD9E41F60A95A94B110A6110";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CA6177CF2AE7604AACE20577 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/decoder/AztecDecoder.cpp";
+			name = "AztecDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4D1FCA607B2157164365A5B4 = {
+			fileRef = "CA6177CF2AE7604AACE20577";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5440021C8E8E76D68D06C0AA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/detector/AztecDetector.cpp";
+			name = "AztecDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6C398D47DBAAB102B42843DC = {
+			fileRef = "5440021C8E8E76D68D06C0AA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C11103845E83AA683F639ABB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/DataMatrixVersion.cpp";
+			name = "DataMatrixVersion.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4F51DD2D1DAB95C4F0260CAB = {
+			fileRef = "C11103845E83AA683F639ABB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5A4478B6A3244ADC8F5845C1 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/DataMatrixDecoder.cpp";
+			name = "DataMatrixDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D0CEA7252E3C6C275346DCD6 = {
+			fileRef = "5A4478B6A3244ADC8F5845C1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		77286306592CD2489A24BAD6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/DataMatrixBitMatrixParser.cpp";
+			name = "DataMatrixBitMatrixParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		13A1A57ECBB33EE6DF0491C9 = {
+			fileRef = "77286306592CD2489A24BAD6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3BF27C0410E99DA907FAFED2 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/DataMatrixDataBlock.cpp";
+			name = "DataMatrixDataBlock.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C98F2C085F3463814D9349C1 = {
+			fileRef = "3BF27C0410E99DA907FAFED2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B87F41F4F075F00B30CE07B7 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/DataMatrixDecodedBitStreamParser.cpp";
+			name = "DataMatrixDecodedBitStreamParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4447D47868AA82E1E37B97A6 = {
+			fileRef = "B87F41F4F075F00B30CE07B7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CF4E50D0925EF21A22E201C2 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/detector/DataMatrixCornerPoint.cpp";
+			name = "DataMatrixCornerPoint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FEFADB9D9F731BC155FA33EB = {
+			fileRef = "CF4E50D0925EF21A22E201C2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DADF658BCD963DAEB560078E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/detector/DataMatrixDetector.cpp";
+			name = "DataMatrixDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A8F242D4628624B760696473 = {
+			fileRef = "DADF658BCD963DAEB560078E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		34954C17EB228CD2178B3BA8 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/detector/DataMatrixDetectorException.cpp";
+			name = "DataMatrixDetectorException.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E43888DA6FE81D5DE128E898 = {
+			fileRef = "34954C17EB228CD2178B3BA8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		431F903DFEF60744998A1B0A = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/QRBitMatrixParser.cpp";
+			name = "QRBitMatrixParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6AA36E264BFF56A8B8AE575F = {
+			fileRef = "431F903DFEF60744998A1B0A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D14F8B510CC6A6F0C128A5B6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/QRDataBlock.cpp";
+			name = "QRDataBlock.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		78FDFA476B902F408691FA37 = {
+			fileRef = "D14F8B510CC6A6F0C128A5B6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AF1E89ADE257712B1ACBD7BF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/QRDataMask.cpp";
+			name = "QRDataMask.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		ED30E188B218A939A5292FAE = {
+			fileRef = "AF1E89ADE257712B1ACBD7BF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4BFF3809C694ACBAC5ADD708 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/QRDecodedBitStreamParser.cpp";
+			name = "QRDecodedBitStreamParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7BB727A4FD23078DBDF0BE8D = {
+			fileRef = "4BFF3809C694ACBAC5ADD708";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E3CF857CAA3B56DB8F40FA7C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/QRDecoder.cpp";
+			name = "QRDecoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CE15A1C88822C1E7F611F467 = {
+			fileRef = "E3CF857CAA3B56DB8F40FA7C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		322C111052C2500EF54CD0D3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/QRMode.cpp";
+			name = "QRMode.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2ACD63F6428024CD2AD0C038 = {
+			fileRef = "322C111052C2500EF54CD0D3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6700DB05BA16262019CE6278 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/QRAlignmentPattern.cpp";
+			name = "QRAlignmentPattern.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3C1C38DD5BA15464C8DB1D2C = {
+			fileRef = "6700DB05BA16262019CE6278";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F9DF0870B3F52977295D0649 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/QRAlignmentPatternFinder.cpp";
+			name = "QRAlignmentPatternFinder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0F172CA00DAA9FBB985A12F3 = {
+			fileRef = "F9DF0870B3F52977295D0649";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CA4FD768EF7F9F61102D79AD = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/QRDetector.cpp";
+			name = "QRDetector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C8013E1D79401F7DD2E62AEC = {
+			fileRef = "CA4FD768EF7F9F61102D79AD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E0B9187FFD96E7B34C188E77 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/QRFinderPattern.cpp";
+			name = "QRFinderPattern.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		748D54BB128B0C898677479A = {
+			fileRef = "E0B9187FFD96E7B34C188E77";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CA43AC4D98740EECEA46D2DA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/QRFinderPatternFinder.cpp";
+			name = "QRFinderPatternFinder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0A674A893F67A7A02E359394 = {
+			fileRef = "CA43AC4D98740EECEA46D2DA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FFC36A8C45E9F0B0649A9303 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/QRFinderPatternInfo.cpp";
+			name = "QRFinderPatternInfo.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		55EE8530A79CCA781EA0E44E = {
+			fileRef = "FFC36A8C45E9F0B0649A9303";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7D08F820D14EAE6DBDC745B8 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/QRVersion.cpp";
+			name = "QRVersion.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C415DE921490BF0DE775F702 = {
+			fileRef = "7D08F820D14EAE6DBDC745B8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		34D729205A75D0E34167339C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/QRFormatInformation.cpp";
+			name = "QRFormatInformation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		51D652EBFF3242B8A96BD7FC = {
+			fileRef = "34D729205A75D0E34167339C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		30E7ADFFB400AD143A3E541B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/QRErrorCorrectionLevel.cpp";
+			name = "QRErrorCorrectionLevel.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		900C6C147D45CE1C0449EED8 = {
+			fileRef = "30E7ADFFB400AD143A3E541B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A798C558062E8C872FC976DF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.cpp";
+			name = "ErrorCorrection.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D8BD027BB2D359A43BC4E1DF = {
+			fileRef = "A798C558062E8C872FC976DF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		895E2F57DC661AFD09F06D48 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ModulusGF.cpp";
+			name = "ModulusGF.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5C23FFF13FEAED48E9D927CB = {
+			fileRef = "895E2F57DC661AFD09F06D48";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3AF4E552B6D2EED96529E65B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ModulusPoly.cpp";
+			name = "ModulusPoly.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8D5ADF620BCE3A7EFFE5C60F = {
+			fileRef = "3AF4E552B6D2EED96529E65B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		539FA10FAC6DE0599E0ABC63 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/PDF417BitMatrixParser.cpp";
+			name = "PDF417BitMatrixParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CDCC75A09F863327EFB994B3 = {
+			fileRef = "539FA10FAC6DE0599E0ABC63";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		00E3235294B9C06A2C378F8C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/PDF417DecodedBitStreamParser.cpp";
+			name = "PDF417DecodedBitStreamParser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		ED6711A77D479137D74C0C85 = {
+			fileRef = "00E3235294B9C06A2C378F8C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		19EF676C92E26277FE72C997 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/PDF417Decoder.cpp";
+			name = "PDF417Decoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		46C9E63A9F07B820C2B4912B = {
+			fileRef = "19EF676C92E26277FE72C997";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3FC2711A483B9A4DEFA9FD2D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/detector/PDF417Detector.cpp";
+			name = "PDF417Detector.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6877CD4A230270496DB29793 = {
+			fileRef = "3FC2711A483B9A4DEFA9FD2D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BE534752E3C688D95BE3DD90 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/detector/LinesSampler.cpp";
+			name = "LinesSampler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BE543CD164856740E3EE237E = {
+			fileRef = "BE534752E3C688D95BE3DD90";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		808F469F857BB195E7777977 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/PDF417Reader.cpp";
+			name = "PDF417Reader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4F5510C6028867942ADA5969 = {
+			fileRef = "808F469F857BB195E7777977";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D455500407F5536E15B184B9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigUnsignedInABase.cc";
+			name = "BigUnsignedInABase.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		10CA2C1DFBAFFACB42FC1D37 = {
+			fileRef = "D455500407F5536E15B184B9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6F5B8C03C8793C36EC3EBBC1 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigUnsigned.cc";
+			name = "BigUnsigned.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D3FB58C1C46571C60D48FE40 = {
+			fileRef = "6F5B8C03C8793C36EC3EBBC1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		482994D2D0E43E57FE98C8EE = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigIntegerUtils.cc";
+			name = "BigIntegerUtils.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7BE3BF97B00F9A33AE474134 = {
+			fileRef = "482994D2D0E43E57FE98C8EE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EA420306345A112316D0AF21 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigIntegerAlgorithms.cc";
+			name = "BigIntegerAlgorithms.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		44328B76D9BB1C26F3140B4B = {
+			fileRef = "EA420306345A112316D0AF21";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		044179137D29724E8D2EE5E2 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigInteger.cc";
+			name = "BigInteger.cc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		19693CE97240225EC015CEA5 = {
+			fileRef = "044179137D29724E8D2EE5E2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4F4C8CBE9365756FEDABFEA4 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/ByteMatrix.cpp";
+			name = "ByteMatrix.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9ACB67B22D0EE1B6091A6B97 = {
+			fileRef = "4F4C8CBE9365756FEDABFEA4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1EDB9E8E8F2F2D03ABD9B115 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/QREncoder.cpp";
+			name = "QREncoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		91B2E4EA14C61A30A5125BB7 = {
+			fileRef = "1EDB9E8E8F2F2D03ABD9B115";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		48CC28AEC23012531F52CB26 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/MaskUtil.cpp";
+			name = "MaskUtil.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3ADE7DADAB19FE77E5606A48 = {
+			fileRef = "48CC28AEC23012531F52CB26";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CCCA9753B90244CB7B766122 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/MatrixUtil.cpp";
+			name = "MatrixUtil.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		371C089C7BF652270BD1631B = {
+			fileRef = "CCCA9753B90244CB7B766122";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9383069AEA7D612FFDC03B7F = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/QRCode.cpp";
+			name = "QRCode.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FF0DFB35190A1D51B0FA596E = {
+			fileRef = "9383069AEA7D612FFDC03B7F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BF7149282AE6BFACC1B305FF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/EncodeHint.cpp";
+			name = "EncodeHint.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7EC90FC81834729AA9EF44BC = {
+			fileRef = "BF7149282AE6BFACC1B305FF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9FFF7A6F1B82CCE746CBE208 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.cpp";
+			name = "ReedSolomonEncoder.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FE861D35951C73E6F30C82F1 = {
+			fileRef = "9FFF7A6F1B82CCE746CBE208";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7072EB7B133A8137B50EAB73 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXingFilter.cpp";
+			name = "QZXingFilter.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D82F32381558AA6EBAE48E1B = {
+			fileRef = "7072EB7B133A8137B50EAB73";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		91968FCFED7D60BC381947E4 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXingImageProvider.cpp";
+			name = "QZXingImageProvider.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3307806197D237845397697B = {
+			fileRef = "91968FCFED7D60BC381947E4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1ED5E5F2863A513C6FA43D1E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		201DFB3192CDA2826B5B51AA = {
+			fileRef = "1ED5E5F2863A513C6FA43D1E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C780AAF013F653DCC07AAC54 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/platforminformation.cpp";
+			name = "platforminformation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		902EE2CD58CDCC602F2263F2 = {
+			fileRef = "C780AAF013F653DCC07AAC54";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4F95C0D36854BF32A74E03E8 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/threshodltools.cpp";
+			name = "threshodltools.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		32EDE03F33E70E74DC09461B = {
+			fileRef = "4F95C0D36854BF32A74E03E8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		18824F7410DB3228EF6CF5FC = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/downloadworker.cpp";
+			name = "downloadworker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9447F2AA9A4CE8F82D7852DD = {
+			fileRef = "18824F7410DB3228EF6CF5FC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		555DBA6577A4FF7A4E884B97 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/userAccount.cpp";
+			name = "userAccount.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3230BD27C283FF8BCCC95848 = {
+			fileRef = "555DBA6577A4FF7A4E884B97";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BF865E59103009EB0A128CE2 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/threebxconverter_plugin_import.cpp";
+			name = "threebxconverter_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8FF2ACB2F59E273BA5526575 = {
+			fileRef = "BF865E59103009EB0A128CE2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C03F129D855DABDDE3AEE7FA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/threebxconverter_qml_plugin_import.cpp";
+			name = "threebxconverter_qml_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D6E7FD940043160668ABE3C4 = {
+			fileRef = "C03F129D855DABDDE3AEE7FA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		06F7E85E20469A95863B15C0 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/qrc_qml.cpp";
+			name = "qrc_qml.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2F9E405730B0B99762FC3B06 = {
+			fileRef = "06F7E85E20469A95863B15C0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7FB7A76D779E90AA97F89F95 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/moc_ImageHandler.cpp";
+			name = "moc_ImageHandler.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		89528E9DA25D0454D75FB9E8 = {
+			fileRef = "7FB7A76D779E90AA97F89F95";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		06C024C2299193B6BC089B62 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/moc_QZXing.cpp";
+			name = "moc_QZXing.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2AC1B9C2CA114C08B79BB93A = {
+			fileRef = "06C024C2299193B6BC089B62";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		39F3A4B19C14F6B6C2DE01BB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/moc_QZXingFilter.cpp";
+			name = "moc_QZXingFilter.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		758B25D0C21035959C89E9A1 = {
+			fileRef = "39F3A4B19C14F6B6C2DE01BB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B8AD1F62F21D148182110E47 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/moc_platforminformation.cpp";
+			name = "moc_platforminformation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7B03B2C8463182A8130221D3 = {
+			fileRef = "B8AD1F62F21D148182110E47";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		55A0F7F8991BC46F2A138B90 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/moc_threshodltools.cpp";
+			name = "moc_threshodltools.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B881E8B8727C2AE846945E4A = {
+			fileRef = "55A0F7F8991BC46F2A138B90";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3D891D6555D86586E1C1A9B7 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/moc_downloadworker.cpp";
+			name = "moc_downloadworker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B67B0FD35BBB5140D289DA0A = {
+			fileRef = "3D891D6555D86586E1C1A9B7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DA4E7293F03C799405589B6F = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/moc_userAccount.cpp";
+			name = "moc_userAccount.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		52DFE95DA20AB0A96AABB903 = {
+			fileRef = "DA4E7293F03C799405589B6F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EA100E1DA0D70D3B3569E159 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/Core/core.h";
+			name = "core.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5C132D61D5C1B7505AAEF283 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/Core/qstringmath.h";
+			name = "qstringmath.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C5F8DD08B0276D2B71CAAA26 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/Core/globalsAndConstants.h";
+			name = "globalsAndConstants.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C23BCA3BC47FF1B2B60399D5 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXing_global.h";
+			name = "QZXing_global.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		170123A8DECB22095C117B3C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/CameraImageWrapper.h";
+			name = "CameraImageWrapper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8EA99077E708026946F8B927 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/ImageHandler.h";
+			name = "ImageHandler.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C6AF71718149F20E70C98559 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXing.h";
+			name = "QZXing.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5D122BDE886CCA918B8735AA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ZXing.h";
+			name = "ZXing.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		24DAC8C03049CD506A6ADFC5 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/IllegalStateException.h";
+			name = "IllegalStateException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		46816B5D00118AFC28E4B5E1 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/InvertedLuminanceSource.h";
+			name = "InvertedLuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5CBD6850F7974ACE27EDB16F = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ChecksumException.h";
+			name = "ChecksumException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		14E046A37C252861A0F5D60E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ResultPointCallback.h";
+			name = "ResultPointCallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BB015096F2F81E6DEE4ADC01 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ResultPoint.h";
+			name = "ResultPoint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		056F7E7D5BC6146D9D0536DA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Result.h";
+			name = "Result.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C5633AFA28BDF79EDE00727A = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/ReaderException.h";
+			name = "ReaderException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A281EDF96BC04BDF22D13AE0 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Reader.h";
+			name = "Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8EF82029E31F95980A727A7E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/NotFoundException.h";
+			name = "NotFoundException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EB79F8D807228F847DD8176D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/MultiFormatReader.h";
+			name = "MultiFormatReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DD5A835ECA5EDBBD91D8D1D8 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/LuminanceSource.h";
+			name = "LuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F95CB7545A90A6AADEC88A8D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/FormatException.h";
+			name = "FormatException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		29973E97175A8013FFA8391C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Exception.h";
+			name = "Exception.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		566ABAE59FEE12AABF1807DF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/DecodeHints.h";
+			name = "DecodeHints.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BF61B1E2C78C4AC4C6496606 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/BinaryBitmap.h";
+			name = "BinaryBitmap.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D39FF5D1D1652C86F5F99371 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/Binarizer.h";
+			name = "Binarizer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C00BA2E42CD7B21FD56944CA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/BarcodeFormat.h";
+			name = "BarcodeFormat.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B4C467C6F60289AE1B756F18 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/AztecReader.h";
+			name = "AztecReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C53712C02E9BC09EA34A6AF9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/AztecDetectorResult.h";
+			name = "AztecDetectorResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C19675FE44ACB8DCCD9DD85D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1D19D27698E31900A3FE9717 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/aztec/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		493FAA1C4D713B75017AB4F3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/StringUtils.h";
+			name = "StringUtils.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7435060A8A25F14ED6DB1056 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/Str.h";
+			name = "Str.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CF41C665CBED05FF1FFB0AB3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/Point.h";
+			name = "Point.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		19928A2AC155B74F2512B664 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/PerspectiveTransform.h";
+			name = "PerspectiveTransform.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5A44C2EDF6885CF6A1330FDE = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/IllegalArgumentException.h";
+			name = "IllegalArgumentException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3C2EF907DCF8BC12EE43A1FA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/HybridBinarizer.h";
+			name = "HybridBinarizer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		86D3F40C3110DFA8FEA5F6FB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GridSampler.h";
+			name = "GridSampler.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EFB841FF929F414ACA9468BA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GreyscaleRotatedLuminanceSource.h";
+			name = "GreyscaleRotatedLuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		94D37B149ACEA9BFCB157C77 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GreyscaleLuminanceSource.h";
+			name = "GreyscaleLuminanceSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		608D0DFDC0779D0B36E37832 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/GlobalHistogramBinarizer.h";
+			name = "GlobalHistogramBinarizer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A6816F3F9C2CC5C4E457CB83 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/DetectorResult.h";
+			name = "DetectorResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		86B07595566D22E3178C11AD = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/DecoderResult.h";
+			name = "DecoderResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		99DF41CC0BF141004315D48D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/Counted.h";
+			name = "Counted.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C9EA819E2570291F8FFA900E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/CharacterSetECI.h";
+			name = "CharacterSetECI.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A9D8C00F9F94E33F8C9480C3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/BitSource.h";
+			name = "BitSource.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9CDACC15DE7B1FE6F7975FAE = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/BitMatrix.h";
+			name = "BitMatrix.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		836DAAD68955EA65D5661B0D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/BitArray.h";
+			name = "BitArray.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5EF037000F04EA17E41C7FCA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/Array.h";
+			name = "Array.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		220D08F72CF315397AB69474 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/detector/MathUtils.h";
+			name = "MathUtils.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DEBF489365808810BE042188 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/detector/JavaMath.h";
+			name = "JavaMath.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		06FA5AD78330B028DDB79C38 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/detector/WhiteRectangleDetector.h";
+			name = "WhiteRectangleDetector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E5307406EFF1B6A25C8A363D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/detector/MonochromeRectangleDetector.h";
+			name = "MonochromeRectangleDetector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5B2AA262BC5A1B4CAC311276 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonException.h";
+			name = "ReedSolomonException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A57C4D7C232CA2301C5CF9D3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.h";
+			name = "ReedSolomonDecoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		72EA3F5B3E2A09AA70BAA79D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/GenericGFPoly.h";
+			name = "GenericGFPoly.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		54AF8517046681A1BB02D9B9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/GenericGF.h";
+			name = "GenericGF.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FB9E0D86F0D8DEA95C507754 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/Version.h";
+			name = "Version.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		46D50C19E1DC52C460CB4F19 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/DataMatrixReader.h";
+			name = "DataMatrixReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D2AA68D955DCF95606C7DC32 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6DFFBFF2A993EB4CBFFF4590 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/DecodedBitStreamParser.h";
+			name = "DecodedBitStreamParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B494D67A53B55E153BFF4A0D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/DataBlock.h";
+			name = "DataBlock.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D99B4C5DAF9BC21C0D24C3D9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/decoder/BitMatrixParser.h";
+			name = "BitMatrixParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		57085DAC368482689BF09EDD = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/detector/DetectorException.h";
+			name = "DetectorException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		237B7F6BA60B5E75FA49DA9D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5E9DFA55F8267586286256F6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/datamatrix/detector/CornerPoint.h";
+			name = "CornerPoint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		76D311EDB08410C97C4F8A0B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/UPCEReader.h";
+			name = "UPCEReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		30C2282D5752DC9DBBE2F8B9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/UPCEANReader.h";
+			name = "UPCEANReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8D6C79E656347C98D6C927D6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/UPCAReader.h";
+			name = "UPCAReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		672C5FEC38AC94F8EAB166C2 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/OneDResultPoint.h";
+			name = "OneDResultPoint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4CB711E6B000E760F7DF2842 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/OneDReader.h";
+			name = "OneDReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B0560958C81E3E8870DC4F08 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/MultiFormatUPCEANReader.h";
+			name = "MultiFormatUPCEANReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		739B1325D92B14E90ADB659C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/MultiFormatOneDReader.h";
+			name = "MultiFormatOneDReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4DD0B5992824B2A7C77EB4AD = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/ITFReader.h";
+			name = "ITFReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AAD7CBF9D28340A0C428E272 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/EAN13Reader.h";
+			name = "EAN13Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C0F9FE888EB93BD60AFDCFD9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/EAN8Reader.h";
+			name = "EAN8Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2CE111760BF794FF7C5BEA54 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/Code128Reader.h";
+			name = "Code128Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F1A02CEACDA31D14FCB594EF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/Code39Reader.h";
+			name = "Code39Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		351DD004D891E64DD8D66653 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/CodaBarReader.h";
+			name = "CodaBarReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0BCB40653E7F4F5BD925AC7B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/oned/Code93Reader.h";
+			name = "Code93Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		80A1D84697BB36209F0475CF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/Version.h";
+			name = "Version.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B0BE73E2B7369630CAC975BC = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/QRCodeReader.h";
+			name = "QRCodeReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		98F792F1FEAAA938B2AB26F3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/FormatInformation.h";
+			name = "FormatInformation.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5AE7660286072DD2BBE16F95 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/ErrorCorrectionLevel.h";
+			name = "ErrorCorrectionLevel.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		116DAA1305C48B87CF07BD02 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/Mode.h";
+			name = "Mode.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		876F697A6D549A0DBE5909A6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1DABE96E473DE06F6397DDE9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/DecodedBitStreamParser.h";
+			name = "DecodedBitStreamParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		964278DFEDF8AD3AF7294C0F = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/DataMask.h";
+			name = "DataMask.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F08A676340ED7217BA1A090B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/DataBlock.h";
+			name = "DataBlock.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1E711DC26D45E35AB409CCF3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/decoder/BitMatrixParser.h";
+			name = "BitMatrixParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B52E99F2A6C262D99182090A = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/FinderPatternInfo.h";
+			name = "FinderPatternInfo.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		ECABAD96D8592D5168BE6800 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/FinderPatternFinder.h";
+			name = "FinderPatternFinder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		86FD8A39307F836BC14A784A = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/FinderPattern.h";
+			name = "FinderPattern.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FB465921030703190A15EF4E = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		332476BB4DA5A8408FDA7764 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/AlignmentPatternFinder.h";
+			name = "AlignmentPatternFinder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		12ECA9AD3B97843B82D33937 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/detector/AlignmentPattern.h";
+			name = "AlignmentPattern.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0BAF7766D0E4ED6717B5412C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/MultipleBarcodeReader.h";
+			name = "MultipleBarcodeReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4C660271AFC98BB593C22E87 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/GenericMultipleBarcodeReader.h";
+			name = "GenericMultipleBarcodeReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EBEFB75464FACABCAEFC3408 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/ByQuadrantReader.h";
+			name = "ByQuadrantReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DE76FB067ECB11D71A5AB781 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/qrcode/QRCodeMultiReader.h";
+			name = "QRCodeMultiReader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F8E8C8CFF884CF2BB57F78BC = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/qrcode/detector/MultiFinderPatternFinder.h";
+			name = "MultiFinderPatternFinder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7796D53BAE90BD34855DBC6C = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/multi/qrcode/detector/MultiDetector.h";
+			name = "MultiDetector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C4EA77C1C045A3741B8E4868 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.h";
+			name = "ErrorCorrection.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1AFE3F508FB86ECFB893A470 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ModulusGF.h";
+			name = "ModulusGF.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		93E90708C4D133D73DB45733 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ModulusPoly.h";
+			name = "ModulusPoly.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		317C32359ACD6D6828F3676D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/BitMatrixParser.h";
+			name = "BitMatrixParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9177E3E96F81DA4CD999D369 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/DecodedBitStreamParser.h";
+			name = "DecodedBitStreamParser.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4E300E64E6035ACB4D6FC7EC = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/Decoder.h";
+			name = "Decoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B0DBAE614087FA330A67AA8D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/detector/Detector.h";
+			name = "Detector.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		15320B0C2B1DF3713652B3FF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/detector/LinesSampler.h";
+			name = "LinesSampler.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A6CF8A5237DFFD30F0EB5711 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/PDF417Reader.h";
+			name = "PDF417Reader.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A2B2DA981FEAC79CCADCFBF1 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/NumberlikeArray.hh";
+			name = "NumberlikeArray.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EFEE4439A5DEA33B64D8E0E6 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigUnsignedInABase.hh";
+			name = "BigUnsignedInABase.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E34027990D082641B8DA25C8 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigUnsigned.hh";
+			name = "BigUnsigned.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6E32465D0EEB21128C3F1ACB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigIntegerUtils.hh";
+			name = "BigIntegerUtils.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6E54E5EFEEFDF57DD0FD1661 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigIntegerLibrary.hh";
+			name = "BigIntegerLibrary.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		990090D44ED03D66237B9835 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigIntegerAlgorithms.hh";
+			name = "BigIntegerAlgorithms.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2D6DEFC1F75D0D82EDC212D9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/bigint/BigInteger.hh";
+			name = "BigInteger.hh";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		31832BEDDA0434B613D14B7D = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/BlockPair.h";
+			name = "BlockPair.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C7AA51EB49B4757BC9BED277 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/ByteMatrix.h";
+			name = "ByteMatrix.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9AD9E481F6BF87BCAE1CE179 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/Encoder.h";
+			name = "Encoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E2A265ABABDB05A4B0FE456A = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/MaskUtil.h";
+			name = "MaskUtil.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		406A0880FC363299E7B0ECA2 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/MatrixUtil.h";
+			name = "MatrixUtil.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BDF45E5AB10A33ABD345F3AA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/qrcode/encoder/QRCode.h";
+			name = "QRCode.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E31C2B92F2D03545A26597AA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/WriterException.h";
+			name = "WriterException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		906081B14DB22F2C3B9DA1EB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/EncodeHint.h";
+			name = "EncodeHint.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F0DFD86CBD2334991C6D1512 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/UnsupportedEncodingException.h";
+			name = "UnsupportedEncodingException.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4801A6320C6DDB050B5123E9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonEncoder.h";
+			name = "ReedSolomonEncoder.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4FE48AB6ECB4FFC4BFD826EB = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/Types.h";
+			name = "Types.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6336421D8FE6CB5C834DF7EA = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXingFilter.h";
+			name = "QZXingFilter.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		83026574ABA1781583D54D93 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXingImageProvider.h";
+			name = "QZXingImageProvider.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		10AD6B21F0D761DBA82A5275 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/platforminformation.h";
+			name = "platforminformation.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		936B05A372BADCCA246345DD = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/threshodltools.h";
+			name = "threshodltools.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3FCAB0FC5E55565798D12992 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/downloadworker.h";
+			name = "downloadworker.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9C67DF54D469C5DD210575B7 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/userAccount.h";
+			name = "userAccount.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		34646509D3944725FF5148FF = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/qml.qrc";
+			name = "qml.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		14D90741DA5BC5358F73B102 = {
+			fileRef = "34646509D3944725FF5148FF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		90EC50D6644C2F62EDAFFC0F = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/ThreeBxConverter.pro";
+			name = "ThreeBxConverter.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		31A9F583C032FC4F786AA0D9 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		6FE6477EA465F915C755225B = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/Core/Core.pri";
+			name = "Core.pri";
+			sourceTree = "<absolute>";
+		};
+		2EC614AC04E9A61642942F44 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/QZXing.pri";
+			name = "QZXing.pri";
+			sourceTree = "<absolute>";
+		};
+		733C64ED3FA7A5AC21C38AC3 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/ThreeBxConverter.pro";
+			name = "ThreeBxConverter.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"BF865E59103009EB0A128CE2",
+				"C03F129D855DABDDE3AEE7FA",
+				"06F7E85E20469A95863B15C0",
+				"7FB7A76D779E90AA97F89F95",
+				"06C024C2299193B6BC089B62",
+				"39F3A4B19C14F6B6C2DE01BB",
+				"B8AD1F62F21D148182110E47",
+				"55A0F7F8991BC46F2A138B90",
+				"3D891D6555D86586E1C1A9B7",
+				"DA4E7293F03C799405589B6F");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		823F19095119EB25B2C6E678 = {
+			isa = PBXGroup;
+			children = (
+				"C6258C0EED01FDEC97458241",
+				"BBED0DBD75E1AD917DA886E5",
+				"FE9E9459652DF5786CB0B290",
+				"04FCA43BC05E8C17CC45E8E5",
+				"7072EB7B133A8137B50EAB73",
+				"91968FCFED7D60BC381947E4",
+				"C23BCA3BC47FF1B2B60399D5",
+				"170123A8DECB22095C117B3C",
+				"8EA99077E708026946F8B927",
+				"C6AF71718149F20E70C98559",
+				"6336421D8FE6CB5C834DF7EA",
+				"83026574ABA1781583D54D93");
+			name = "QzXing";
+			sourceTree = "<group>";
+		};
+		04FCA43BC05E8C17CC45E8E5 = {
+			isa = PBXGroup;
+			children = (
+				"B1FDE630EC6588432FCB86ED",
+				"FEEF4E4A23F16CA257167367");
+			name = "zxing";
+			sourceTree = "<group>";
+		};
+		FEEF4E4A23F16CA257167367 = {
+			isa = PBXGroup;
+			children = (
+				"D455500407F5536E15B184B9",
+				"6F5B8C03C8793C36EC3EBBC1",
+				"482994D2D0E43E57FE98C8EE",
+				"EA420306345A112316D0AF21",
+				"044179137D29724E8D2EE5E2",
+				"A2B2DA981FEAC79CCADCFBF1",
+				"EFEE4439A5DEA33B64D8E0E6",
+				"E34027990D082641B8DA25C8",
+				"6E32465D0EEB21128C3F1ACB",
+				"6E54E5EFEEFDF57DD0FD1661",
+				"990090D44ED03D66237B9835",
+				"2D6DEFC1F75D0D82EDC212D9");
+			name = "bigint";
+			sourceTree = "<group>";
+		};
+		B1FDE630EC6588432FCB86ED = {
+			isa = PBXGroup;
+			children = (
+				"529DC15A525D032EC890ED53",
+				"2E844E784B9AEB1B3B320600",
+				"510EA55664531732A7C6B53E",
+				"A736427AE1F80BE9BEF08068",
+				"0CD3B7709A5AF59E4B423E0D",
+				"05C200C3CE3CE097179B8A59",
+				"66E47127B73E36231E41263F",
+				"BD48445C04FCD5916F217478",
+				"5A91A89B5E6CA0684E37C393",
+				"A0D1197B46F05CF047AFA5EB",
+				"F591862C32E2DE2DC3D3BF63",
+				"4434F22AEEE3E78FE3B64FBC",
+				"D1A9EE56A2A9E8E4AA79B795",
+				"4E000AB288BBB9CBE3E783FA",
+				"6DFF5626C35ADB2F222B790E",
+				"8119629277A6335D12042F8A",
+				"FE6FDEF589D16E8991BE66BB",
+				"5609438AC9413F8AABBED296",
+				"B717C5FBC8766E8D18410673",
+				"6BC1902AB6FF4B606DA1CE49",
+				"32C2CE7DF0FEFFC02873A35D",
+				"4C34AA2A52FF978D2665D9F2",
+				"BF7149282AE6BFACC1B305FF",
+				"5D122BDE886CCA918B8735AA",
+				"24DAC8C03049CD506A6ADFC5",
+				"46816B5D00118AFC28E4B5E1",
+				"5CBD6850F7974ACE27EDB16F",
+				"14E046A37C252861A0F5D60E",
+				"BB015096F2F81E6DEE4ADC01",
+				"056F7E7D5BC6146D9D0536DA",
+				"C5633AFA28BDF79EDE00727A",
+				"A281EDF96BC04BDF22D13AE0",
+				"8EF82029E31F95980A727A7E",
+				"EB79F8D807228F847DD8176D",
+				"DD5A835ECA5EDBBD91D8D1D8",
+				"F95CB7545A90A6AADEC88A8D",
+				"29973E97175A8013FFA8391C",
+				"566ABAE59FEE12AABF1807DF",
+				"BF61B1E2C78C4AC4C6496606",
+				"D39FF5D1D1652C86F5F99371",
+				"C00BA2E42CD7B21FD56944CA",
+				"E31C2B92F2D03545A26597AA",
+				"906081B14DB22F2C3B9DA1EB",
+				"F0DFD86CBD2334991C6D1512");
+			name = "zxing";
+			sourceTree = "<group>";
+		};
+		8119629277A6335D12042F8A = {
+			isa = PBXGroup;
+			children = (
+				"B200D9A3827E92B3AE000915",
+				"10DB2310BC7597618D795B67",
+				"9002F15EF40ECB87F4B932EA",
+				"8B192A3E2D70C0C63CC40D9F",
+				"B4C467C6F60289AE1B756F18",
+				"C53712C02E9BC09EA34A6AF9");
+			name = "aztec";
+			sourceTree = "<group>";
+		};
+		9002F15EF40ECB87F4B932EA = {
+			isa = PBXGroup;
+			children = (
+				"CA6177CF2AE7604AACE20577",
+				"C19675FE44ACB8DCCD9DD85D");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		8B192A3E2D70C0C63CC40D9F = {
+			isa = PBXGroup;
+			children = (
+				"5440021C8E8E76D68D06C0AA",
+				"1D19D27698E31900A3FE9717");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		FE6FDEF589D16E8991BE66BB = {
+			isa = PBXGroup;
+			children = (
+				"DE341336CC1ABFAA979AAC5C",
+				"76F6921594B443B413275202",
+				"50D1940A47210F81EC42DA77",
+				"621587F2E16C2F3C2A31FF6C",
+				"9B82048A200F12721E71B7E0",
+				"F25EBE672728011A6A6B7685",
+				"BCDDFE9B974DFDABA01A0FD0",
+				"C444B7431F9D8451314FDE6C",
+				"7A235147234B3516F615B433",
+				"688F6A2372F5BA3E9A6F8584",
+				"61B7ADB4BD6DDF5447CAD1CA",
+				"7D4814BF3E18E77AA09706ED",
+				"F9E2FE1E0DEF434B42B99888",
+				"87952CE8C562FBEAB25315B9",
+				"20316097C51919A981B9CE81",
+				"AAA9ACFE34F51B2D4E3B5846",
+				"C5498CC824CF1849983B8FE6",
+				"C56FAD9C0F5C4F3A9B0848C0",
+				"493FAA1C4D713B75017AB4F3",
+				"7435060A8A25F14ED6DB1056",
+				"CF41C665CBED05FF1FFB0AB3",
+				"19928A2AC155B74F2512B664",
+				"5A44C2EDF6885CF6A1330FDE",
+				"3C2EF907DCF8BC12EE43A1FA",
+				"86D3F40C3110DFA8FEA5F6FB",
+				"EFB841FF929F414ACA9468BA",
+				"94D37B149ACEA9BFCB157C77",
+				"608D0DFDC0779D0B36E37832",
+				"A6816F3F9C2CC5C4E457CB83",
+				"86B07595566D22E3178C11AD",
+				"99DF41CC0BF141004315D48D",
+				"C9EA819E2570291F8FFA900E",
+				"A9D8C00F9F94E33F8C9480C3",
+				"9CDACC15DE7B1FE6F7975FAE",
+				"836DAAD68955EA65D5661B0D",
+				"5EF037000F04EA17E41C7FCA",
+				"4FE48AB6ECB4FFC4BFD826EB");
+			name = "common";
+			sourceTree = "<group>";
+		};
+		C5498CC824CF1849983B8FE6 = {
+			isa = PBXGroup;
+			children = (
+				"C215542B76FB8D58401FDB09",
+				"E72ED57110D9A0A01896BBF9",
+				"220D08F72CF315397AB69474",
+				"DEBF489365808810BE042188",
+				"06FA5AD78330B028DDB79C38",
+				"E5307406EFF1B6A25C8A363D");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		C56FAD9C0F5C4F3A9B0848C0 = {
+			isa = PBXGroup;
+			children = (
+				"BCD495897AD0A034EA1B2AAD",
+				"9E167E10643BBDBB42D48ADB",
+				"E93C95C399DD99B82611AA9B",
+				"A44644D5ACB64EAEBCF21C4A",
+				"9FFF7A6F1B82CCE746CBE208",
+				"5B2AA262BC5A1B4CAC311276",
+				"A57C4D7C232CA2301C5CF9D3",
+				"72EA3F5B3E2A09AA70BAA79D",
+				"54AF8517046681A1BB02D9B9",
+				"4801A6320C6DDB050B5123E9");
+			name = "reedsolomon";
+			sourceTree = "<group>";
+		};
+		5609438AC9413F8AABBED296 = {
+			isa = PBXGroup;
+			children = (
+				"D569A880805D802D4E77EFBB",
+				"C11103845E83AA683F639ABB",
+				"F932348A50F20CF6926E4BE0",
+				"A6580B073E3C1E7E674AF635",
+				"FB9E0D86F0D8DEA95C507754",
+				"46D50C19E1DC52C460CB4F19");
+			name = "datamatrix";
+			sourceTree = "<group>";
+		};
+		F932348A50F20CF6926E4BE0 = {
+			isa = PBXGroup;
+			children = (
+				"5A4478B6A3244ADC8F5845C1",
+				"77286306592CD2489A24BAD6",
+				"3BF27C0410E99DA907FAFED2",
+				"B87F41F4F075F00B30CE07B7",
+				"D2AA68D955DCF95606C7DC32",
+				"6DFFBFF2A993EB4CBFFF4590",
+				"B494D67A53B55E153BFF4A0D",
+				"D99B4C5DAF9BC21C0D24C3D9");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		A6580B073E3C1E7E674AF635 = {
+			isa = PBXGroup;
+			children = (
+				"CF4E50D0925EF21A22E201C2",
+				"DADF658BCD963DAEB560078E",
+				"34954C17EB228CD2178B3BA8",
+				"57085DAC368482689BF09EDD",
+				"237B7F6BA60B5E75FA49DA9D",
+				"5E9DFA55F8267586286256F6");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		32C2CE7DF0FEFFC02873A35D = {
+			isa = PBXGroup;
+			children = (
+				"A7F6F3BE078192CA9365512B",
+				"3EDF205FA14EACDE8590ECDE",
+				"DA6A6E015CD84ABB0A2D54F5",
+				"C6BC75D99EA5EAF25504362D",
+				"0BAF7766D0E4ED6717B5412C",
+				"4C660271AFC98BB593C22E87",
+				"EBEFB75464FACABCAEFC3408");
+			name = "multi";
+			sourceTree = "<group>";
+		};
+		C6BC75D99EA5EAF25504362D = {
+			isa = PBXGroup;
+			children = (
+				"959CB22EAD99D79A4A320604",
+				"4210C1311AB9922C87052363",
+				"DE76FB067ECB11D71A5AB781");
+			name = "qrcode";
+			sourceTree = "<group>";
+		};
+		4210C1311AB9922C87052363 = {
+			isa = PBXGroup;
+			children = (
+				"2667512617D1D0AE6CC13396",
+				"AD9E41F60A95A94B110A6110",
+				"F8E8C8CFF884CF2BB57F78BC",
+				"7796D53BAE90BD34855DBC6C");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		B717C5FBC8766E8D18410673 = {
+			isa = PBXGroup;
+			children = (
+				"D5B64F3B3FB83B52D93FEE45",
+				"A6E7DC03A10FA2F686B4A6E2",
+				"867D9DB153FECC06C03AFB73",
+				"717566605281F9178E27268D",
+				"6B2ADD4491AC9F7597AED443",
+				"D27CF7412759EC87545A333B",
+				"19FDF329D9874E7A5A75CFE6",
+				"46A13A98D32C15746E90FB7F",
+				"8BB11AA20935DDA301342737",
+				"A1D2C09C8E6CFEE755951CDE",
+				"BDAB9BB79180ECC1891608F6",
+				"055FCC1AC1BB57D2B1E8CA93",
+				"550A173A657122C4DCA67C74",
+				"D96D80F0425E2D0FC1249945",
+				"76D311EDB08410C97C4F8A0B",
+				"30C2282D5752DC9DBBE2F8B9",
+				"8D6C79E656347C98D6C927D6",
+				"672C5FEC38AC94F8EAB166C2",
+				"4CB711E6B000E760F7DF2842",
+				"B0560958C81E3E8870DC4F08",
+				"739B1325D92B14E90ADB659C",
+				"4DD0B5992824B2A7C77EB4AD",
+				"AAD7CBF9D28340A0C428E272",
+				"C0F9FE888EB93BD60AFDCFD9",
+				"2CE111760BF794FF7C5BEA54",
+				"F1A02CEACDA31D14FCB594EF",
+				"351DD004D891E64DD8D66653",
+				"0BCB40653E7F4F5BD925AC7B");
+			name = "oned";
+			sourceTree = "<group>";
+		};
+		4C34AA2A52FF978D2665D9F2 = {
+			isa = PBXGroup;
+			children = (
+				"1896C99718E5127D245E8C3B",
+				"E86039FD9B173A61E0E828A3",
+				"808F469F857BB195E7777977",
+				"A6CF8A5237DFFD30F0EB5711");
+			name = "pdf417";
+			sourceTree = "<group>";
+		};
+		1896C99718E5127D245E8C3B = {
+			isa = PBXGroup;
+			children = (
+				"10DD076D02184B77F18370E3",
+				"539FA10FAC6DE0599E0ABC63",
+				"00E3235294B9C06A2C378F8C",
+				"19EF676C92E26277FE72C997",
+				"317C32359ACD6D6828F3676D",
+				"9177E3E96F81DA4CD999D369",
+				"4E300E64E6035ACB4D6FC7EC");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		10DD076D02184B77F18370E3 = {
+			isa = PBXGroup;
+			children = (
+				"A798C558062E8C872FC976DF",
+				"895E2F57DC661AFD09F06D48",
+				"3AF4E552B6D2EED96529E65B",
+				"C4EA77C1C045A3741B8E4868",
+				"1AFE3F508FB86ECFB893A470",
+				"93E90708C4D133D73DB45733");
+			name = "ec";
+			sourceTree = "<group>";
+		};
+		E86039FD9B173A61E0E828A3 = {
+			isa = PBXGroup;
+			children = (
+				"3FC2711A483B9A4DEFA9FD2D",
+				"BE534752E3C688D95BE3DD90",
+				"B0DBAE614087FA330A67AA8D",
+				"15320B0C2B1DF3713652B3FF");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		6BC1902AB6FF4B606DA1CE49 = {
+			isa = PBXGroup;
+			children = (
+				"FC132F6CF5B50B1748C148C9",
+				"A2A505475A62CD8B0D5073AE",
+				"8C53635DAB193A76E695BD29",
+				"7D08F820D14EAE6DBDC745B8",
+				"34D729205A75D0E34167339C",
+				"30E7ADFFB400AD143A3E541B",
+				"BA44A90F1905B2DA295571E2",
+				"80A1D84697BB36209F0475CF",
+				"B0BE73E2B7369630CAC975BC",
+				"98F792F1FEAAA938B2AB26F3",
+				"5AE7660286072DD2BBE16F95");
+			name = "qrcode";
+			sourceTree = "<group>";
+		};
+		A2A505475A62CD8B0D5073AE = {
+			isa = PBXGroup;
+			children = (
+				"431F903DFEF60744998A1B0A",
+				"D14F8B510CC6A6F0C128A5B6",
+				"AF1E89ADE257712B1ACBD7BF",
+				"4BFF3809C694ACBAC5ADD708",
+				"E3CF857CAA3B56DB8F40FA7C",
+				"322C111052C2500EF54CD0D3",
+				"116DAA1305C48B87CF07BD02",
+				"876F697A6D549A0DBE5909A6",
+				"1DABE96E473DE06F6397DDE9",
+				"964278DFEDF8AD3AF7294C0F",
+				"F08A676340ED7217BA1A090B",
+				"1E711DC26D45E35AB409CCF3");
+			name = "decoder";
+			sourceTree = "<group>";
+		};
+		8C53635DAB193A76E695BD29 = {
+			isa = PBXGroup;
+			children = (
+				"6700DB05BA16262019CE6278",
+				"F9DF0870B3F52977295D0649",
+				"CA4FD768EF7F9F61102D79AD",
+				"E0B9187FFD96E7B34C188E77",
+				"CA43AC4D98740EECEA46D2DA",
+				"FFC36A8C45E9F0B0649A9303",
+				"B52E99F2A6C262D99182090A",
+				"ECABAD96D8592D5168BE6800",
+				"86FD8A39307F836BC14A784A",
+				"FB465921030703190A15EF4E",
+				"332476BB4DA5A8408FDA7764",
+				"12ECA9AD3B97843B82D33937");
+			name = "detector";
+			sourceTree = "<group>";
+		};
+		BA44A90F1905B2DA295571E2 = {
+			isa = PBXGroup;
+			children = (
+				"4F4C8CBE9365756FEDABFEA4",
+				"1EDB9E8E8F2F2D03ABD9B115",
+				"48CC28AEC23012531F52CB26",
+				"CCCA9753B90244CB7B766122",
+				"9383069AEA7D612FFDC03B7F",
+				"31832BEDDA0434B613D14B7D",
+				"C7AA51EB49B4757BC9BED277",
+				"9AD9E481F6BF87BCAE1CE179",
+				"E2A265ABABDB05A4B0FE456A",
+				"406A0880FC363299E7B0ECA2",
+				"BDF45E5AB10A33ABD345F3AA");
+			name = "encoder";
+			sourceTree = "<group>";
+		};
+		6EE0BE3507FF9256DB1E5115 = {
+			isa = PBXGroup;
+			children = (
+				"2EC614AC04E9A61642942F44");
+			name = "QzXing";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"34646509D3944725FF5148FF");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"E77323CC633B8583C289D127",
+				"823F19095119EB25B2C6E678",
+				"1ED5E5F2863A513C6FA43D1E",
+				"C780AAF013F653DCC07AAC54",
+				"4F95C0D36854BF32A74E03E8",
+				"18824F7410DB3228EF6CF5FC",
+				"555DBA6577A4FF7A4E884B97",
+				"EA100E1DA0D70D3B3569E159",
+				"5C132D61D5C1B7505AAEF283",
+				"C5F8DD08B0276D2B71CAAA26",
+				"10AD6B21F0D761DBA82A5275",
+				"936B05A372BADCCA246345DD",
+				"3FCAB0FC5E55565798D12992",
+				"9C67DF54D469C5DD210575B7");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"90EC50D6644C2F62EDAFFC0F",
+				"31A9F583C032FC4F786AA0D9",
+				"6FE6477EA465F915C755225B",
+				"6EE0BE3507FF9256DB1E5115",
+				"733C64ED3FA7A5AC21C38AC3");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/ -f ThreeBxConverter.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"15499D7311AC08C9360EFF4F",
+				"B5889332416434E97E6856C3",
+				"F8E14141D1A9CB359E209395",
+				"2B0D698396B5EEF244CF444E",
+				"AC688F5C2140A3FDCC8F2F97",
+				"7590D0DD480350BA1D278BD3",
+				"1DF59D41A50C580C5C31FF24",
+				"6C9DF77F3E9F34D0812239F6",
+				"05A5F68ACFCD3E6801937EDB",
+				"06B78A90C052B84C9607BA64",
+				"6CD37A89A4718B63FA7AD0F3",
+				"3AD8DA094C768F70339C2164",
+				"72A33FA902C900610CABE6C2",
+				"39757BB1CAAEB79719E3AD1D",
+				"9C42F2716FC7575E5C410761",
+				"BD7BD7158A0AA75E727B1249",
+				"DC4F0A6A1CC2F9178840A083",
+				"00175D3F5045E4AE565E00CB",
+				"FA78B1C8AC8BB53ECF755462",
+				"9B52B3C205538F6751EABEC8",
+				"603562C8030AD821942F3113",
+				"DE6685917EB78B7271B12AC6",
+				"61DA0E145BBD8FE685ED7DCB",
+				"D0C3F9BAAB3E2198BDDA7B9D",
+				"6A9100F1E4302EB4705F7046",
+				"14677A72C846AB5B80CE1B58",
+				"C0B5E9590588EDEC1A1DB0FB",
+				"35C9A08242F03CD596CECD70",
+				"EDE70955CDFA4320DDC85C83",
+				"E0290743C58E4AFF80F283A5",
+				"58EF7E22B792DC3D3637B6DC",
+				"569917B694A3224FE02E50B1",
+				"788C8A9873F354DFD1AF88C8",
+				"B44F8C8C79E4D52073065208",
+				"24A49A312682549F6E0A8CD6",
+				"9FBB9E76EF9C54FADE0F3B2E",
+				"35B70106D517375C7AA0CF57",
+				"B441F2E8B4B4E08C59494E1D",
+				"4B3AFCF9CCA9A1C7439A882C",
+				"C4A45471022DFE4C9D447254",
+				"FA4364E006CEA9844C7BDDE2",
+				"94C09E4C5C2646888651B145",
+				"0822423F854FD462295FCCF2",
+				"133EE279813FE5EFDC61976C",
+				"C8051CFA07A9B00986108C8A",
+				"01116659EDCDBF9D9F94A947",
+				"1CE2503218979B8D92A8F60F",
+				"5098BE9025AA811114D83BA9",
+				"EDE5210D4B84C8BF5262BA5A",
+				"D7D91B4F395721E8F74BCDC7",
+				"8F9074ED88FFA1FEA0845F34",
+				"4A2E2F40E0C6B16200B49C4B",
+				"22FC60FBC229D1D18AB3E8F3",
+				"40A728F99D836C0E0B5685E6",
+				"7E31303E8F2FD1F336FAC5DE",
+				"CD0DDF36253775831384B1E8",
+				"58B75B9151C55CADDBD8CE2F",
+				"8EC98E0336A99B0289208A7E",
+				"D19C8B8987467A1E036DBD48",
+				"F02C08BF622015E48E3CC669",
+				"BA6606B7C320F8862525A810",
+				"4E75CA783FD976C09D3BE218",
+				"A681B326A7AEFA50D5BDD821",
+				"9F9B3A2A1CADBD43DFEC9AC3",
+				"F23F034EF9318647645B6C5C",
+				"4D1FCA607B2157164365A5B4",
+				"6C398D47DBAAB102B42843DC",
+				"4F51DD2D1DAB95C4F0260CAB",
+				"D0CEA7252E3C6C275346DCD6",
+				"13A1A57ECBB33EE6DF0491C9",
+				"C98F2C085F3463814D9349C1",
+				"4447D47868AA82E1E37B97A6",
+				"FEFADB9D9F731BC155FA33EB",
+				"A8F242D4628624B760696473",
+				"E43888DA6FE81D5DE128E898",
+				"6AA36E264BFF56A8B8AE575F",
+				"78FDFA476B902F408691FA37",
+				"ED30E188B218A939A5292FAE",
+				"7BB727A4FD23078DBDF0BE8D",
+				"CE15A1C88822C1E7F611F467",
+				"2ACD63F6428024CD2AD0C038",
+				"3C1C38DD5BA15464C8DB1D2C",
+				"0F172CA00DAA9FBB985A12F3",
+				"C8013E1D79401F7DD2E62AEC",
+				"748D54BB128B0C898677479A",
+				"0A674A893F67A7A02E359394",
+				"55EE8530A79CCA781EA0E44E",
+				"C415DE921490BF0DE775F702",
+				"51D652EBFF3242B8A96BD7FC",
+				"900C6C147D45CE1C0449EED8",
+				"D8BD027BB2D359A43BC4E1DF",
+				"5C23FFF13FEAED48E9D927CB",
+				"8D5ADF620BCE3A7EFFE5C60F",
+				"CDCC75A09F863327EFB994B3",
+				"ED6711A77D479137D74C0C85",
+				"46C9E63A9F07B820C2B4912B",
+				"6877CD4A230270496DB29793",
+				"BE543CD164856740E3EE237E",
+				"4F5510C6028867942ADA5969",
+				"10CA2C1DFBAFFACB42FC1D37",
+				"D3FB58C1C46571C60D48FE40",
+				"7BE3BF97B00F9A33AE474134",
+				"44328B76D9BB1C26F3140B4B",
+				"19693CE97240225EC015CEA5",
+				"9ACB67B22D0EE1B6091A6B97",
+				"91B2E4EA14C61A30A5125BB7",
+				"3ADE7DADAB19FE77E5606A48",
+				"371C089C7BF652270BD1631B",
+				"FF0DFB35190A1D51B0FA596E",
+				"7EC90FC81834729AA9EF44BC",
+				"FE861D35951C73E6F30C82F1",
+				"D82F32381558AA6EBAE48E1B",
+				"3307806197D237845397697B",
+				"201DFB3192CDA2826B5B51AA",
+				"902EE2CD58CDCC602F2263F2",
+				"32EDE03F33E70E74DC09461B",
+				"9447F2AA9A4CE8F82D7852DD",
+				"3230BD27C283FF8BCCC95848",
+				"8FF2ACB2F59E273BA5526575",
+				"D6E7FD940043160668ABE3C4",
+				"2F9E405730B0B99762FC3B06",
+				"89528E9DA25D0454D75FB9E8",
+				"2AC1B9C2CA114C08B79BB93A",
+				"758B25D0C21035959C89E9A1",
+				"7B03B2C8463182A8130221D3",
+				"B881E8B8727C2AE846945E4A",
+				"B67B0FD35BBB5140D289DA0A",
+				"52DFE95DA20AB0A96AABB903");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C44131FDCFEF4396B9EA2BA = {
+			isa = PBXFileReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4EB68D0C8182BCE33529C421 = {
+			fileRef = "3C44131FDCFEF4396B9EA2BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DE412D74AB489C1018DEB193 = {
+			isa = PBXFileReference;
+			name = "qavfcamera";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/mediaservice/libqavfcamera$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		95DD8EAD339C33234F2796DA = {
+			fileRef = "DE412D74AB489C1018DEB193";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEF9DFDA6822604126A7E233 = {
+			isa = PBXFileReference;
+			name = "CoreAudio.framework";
+			path = "/System/Library/Frameworks/CoreAudio.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		35A1A39F8EAB37889EB3D397 = {
+			fileRef = "BEF9DFDA6822604126A7E233";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		547CCADBD1CC5050167EF948 = {
+			isa = PBXFileReference;
+			name = "CoreMedia.framework";
+			path = "/System/Library/Frameworks/CoreMedia.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B78304F135DEF1F7A68393A6 = {
+			fileRef = "547CCADBD1CC5050167EF948";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F923F38E989CF0F61A164DD8 = {
+			isa = PBXFileReference;
+			name = "CoreVideo.framework";
+			path = "/System/Library/Frameworks/CoreVideo.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		6602E41D28CF886E694AD752 = {
+			fileRef = "F923F38E989CF0F61A164DD8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		21F907AB8D19BD779147A085 = {
+			isa = PBXFileReference;
+			name = "AVFoundation.framework";
+			path = "/System/Library/Frameworks/AVFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		CCA737EE379CDB10CC9A0F23 = {
+			fileRef = "21F907AB8D19BD779147A085";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9CB1CFFA684E8E79829080E5 = {
+			isa = PBXFileReference;
+			name = "qavfmediaplayer";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/mediaservice/libqavfmediaplayer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C71F572625156991F3EDF894 = {
+			fileRef = "9CB1CFFA684E8E79829080E5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		037D2AF88CBAAC00101B7BED = {
+			isa = PBXFileReference;
+			name = "Qt5MultimediaWidgets";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5MultimediaWidgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9E11AB13F04F6D23D3E359A9 = {
+			fileRef = "037D2AF88CBAAC00101B7BED";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F8D707FD4B38050E5BF605FC = {
+			isa = PBXFileReference;
+			name = "Qt5OpenGL";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5OpenGL$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C90FCB829F7DA54CE74F3F3B = {
+			fileRef = "F8D707FD4B38050E5BF605FC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		082776EA83BD41F566C32224 = {
+			isa = PBXFileReference;
+			name = "Qt5Widgets";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		998367604A6F6BCF0132E5EA = {
+			fileRef = "082776EA83BD41F566C32224";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4CA40E152E9852897AB6CB7A = {
+			isa = PBXFileReference;
+			name = "qtmedia_audioengine";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/mediaservice/libqtmedia_audioengine$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6DCDB7CBD1FC6EA0B6B81A45 = {
+			fileRef = "4CA40E152E9852897AB6CB7A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DF498065C45048EA57B59A5C = {
+			isa = PBXFileReference;
+			name = "qtaudio_coreaudio";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/audio/libqtaudio_coreaudio$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4E9D65C2E542A376F8A930C5 = {
+			fileRef = "DF498065C45048EA57B59A5C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D15B38989F1FCC0D44AF61B3 = {
+			isa = PBXFileReference;
+			name = "qtmultimedia_m3u";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/playlistformats/libqtmultimedia_m3u$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		900C71AF3B524550CD4CE10C = {
+			fileRef = "D15B38989F1FCC0D44AF61B3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9031174ABDFB2C9D6D1CB789 = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		DD4593F4F9B254A0B7CAA52B = {
+			fileRef = "9031174ABDFB2C9D6D1CB789";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3B6FF1BFA0DFE8CF393FE85D = {
+			isa = PBXFileReference;
+			name = "Qt5FontDatabaseSupport";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5FontDatabaseSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F2DA71813F21891D5B784909 = {
+			fileRef = "3B6FF1BFA0DFE8CF393FE85D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4581C86F515A849579AFB5EF = {
+			isa = PBXFileReference;
+			name = "qtfreetype";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libqtfreetype$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8FF35CE516630A12E10FE066 = {
+			fileRef = "4581C86F515A849579AFB5EF";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4961EBFE082215CCEFC9AD8C = {
+			isa = PBXFileReference;
+			name = "Qt5GraphicsSupport";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5GraphicsSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1B2ADF80E713521499E818EC = {
+			fileRef = "4961EBFE082215CCEFC9AD8C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4C81F360656D049423B55C82 = {
+			isa = PBXFileReference;
+			name = "Qt5ClipboardSupport";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5ClipboardSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BFF930AEDE55B046F8E4FB90 = {
+			fileRef = "4C81F360656D049423B55C82";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B95849F2F3DD265FAA3F4DA8 = {
+			isa = PBXFileReference;
+			name = "qgif";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F036818916BE4735548ABE02 = {
+			fileRef = "B95849F2F3DD265FAA3F4DA8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3F8405FF9A86F05926D68B64 = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D250767F980FE61DF079C345 = {
+			fileRef = "3F8405FF9A86F05926D68B64";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		70D03DC05AA6317C78C2BD5B = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F19ED4D654CC4ADF70FF2285 = {
+			fileRef = "70D03DC05AA6317C78C2BD5B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2280AFD29AFE405BD26B186F = {
+			isa = PBXFileReference;
+			name = "qjpeg";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		979D04C44AD8F34B0920D687 = {
+			fileRef = "2280AFD29AFE405BD26B186F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		03533EA902A01AF4C4EF6C6B = {
+			isa = PBXFileReference;
+			name = "qmacjp2";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqmacjp2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1872A08DE1B23B36AFFBB7C7 = {
+			fileRef = "03533EA902A01AF4C4EF6C6B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		738A800B4510D2DA6268D6F9 = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5C2672546655FF7AA44013B5 = {
+			fileRef = "738A800B4510D2DA6268D6F9";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		72FEF5C61CCD6B0B91E47735 = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2AFA1B486852121C7E3DA566 = {
+			fileRef = "72FEF5C61CCD6B0B91E47735";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D9983A196BD019D2E85EE799 = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		32F48D946ECC49F3869A338C = {
+			fileRef = "D9983A196BD019D2E85EE799";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DF1022B5DFA0B592668116D8 = {
+			isa = PBXFileReference;
+			name = "qwebp";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5F70957027251C13242C6B1A = {
+			fileRef = "DF1022B5DFA0B592668116D8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6313C82DA39A1A14E8F36C19 = {
+			isa = PBXFileReference;
+			name = "qmldbg_debugger";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_debugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8B054E8349BE94059F9EDEDD = {
+			fileRef = "6313C82DA39A1A14E8F36C19";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3F6AE67DB21F4D36AC7AF4E0 = {
+			isa = PBXFileReference;
+			name = "qmldbg_inspector";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_inspector$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4B8C47C77628918619CD0443 = {
+			fileRef = "3F6AE67DB21F4D36AC7AF4E0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6386F9BC616F662565BAABFD = {
+			isa = PBXFileReference;
+			name = "qmldbg_local";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_local$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4B2C61CDA033DF768C4FA67B = {
+			fileRef = "6386F9BC616F662565BAABFD";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BAF0E1C19492E40C375E7A1B = {
+			isa = PBXFileReference;
+			name = "qmldbg_messages";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_messages$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2D4272967152D2C2141B190F = {
+			fileRef = "BAF0E1C19492E40C375E7A1B";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4AE0DE166A19227AE0DF492E = {
+			isa = PBXFileReference;
+			name = "qmldbg_native";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_native$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0EC842FB2A274A07F3F76FD5 = {
+			fileRef = "4AE0DE166A19227AE0DF492E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D050611641453E4317458BF7 = {
+			isa = PBXFileReference;
+			name = "qmldbg_nativedebugger";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_nativedebugger$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C4207FF1D867801A7EC00675 = {
+			fileRef = "D050611641453E4317458BF7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		262B64448EF0BEEBDCADC082 = {
+			isa = PBXFileReference;
+			name = "qmldbg_profiler";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_profiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5EFB07AF32756DA9CF93024D = {
+			fileRef = "262B64448EF0BEEBDCADC082";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3FD991B5735A789EF0C017D6 = {
+			isa = PBXFileReference;
+			name = "qmldbg_quickprofiler";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_quickprofiler$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		053853A027794CAAF8E78DEA = {
+			fileRef = "3FD991B5735A789EF0C017D6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		37DABB3F212026E63070A125 = {
+			isa = PBXFileReference;
+			name = "qmldbg_server";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_server$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6023C671D940312AC505929D = {
+			fileRef = "37DABB3F212026E63070A125";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F886CBC53EEFA8C3943670F4 = {
+			isa = PBXFileReference;
+			name = "Qt5PacketProtocol";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5PacketProtocol$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B061862E0F6E56C0DD81EFBA = {
+			fileRef = "F886CBC53EEFA8C3943670F4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DCAC1625F756C9F1C1647CF1 = {
+			isa = PBXFileReference;
+			name = "qmldbg_tcp";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling/libqmldbg_tcp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7365AE4CF6A9DA79A4C17A18 = {
+			fileRef = "DCAC1625F756C9F1C1647CF1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		62068DC736F5EAB2432545A4 = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8424C01CEAA1F97EF09FB08E = {
+			fileRef = "62068DC736F5EAB2432545A4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		58D9F4185F563F6C5594E859 = {
+			isa = PBXFileReference;
+			name = "qtquick2plugin";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick.2/libqtquick2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		973AC82ECEA8EA0D456623CD = {
+			fileRef = "58D9F4185F563F6C5594E859";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10D25474CDAA5F45FB3ECF59 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrols2plugin";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Controls.2/libqtquickcontrols2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F2EF1AF705A76A4DB666C9E7 = {
+			fileRef = "10D25474CDAA5F45FB3ECF59";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		14D1948EEBAF2BAF56F6DD7F = {
+			isa = PBXFileReference;
+			name = "Qt5QuickControls2";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5QuickControls2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		13F60502532D4FCD12B1A55E = {
+			fileRef = "14D1948EEBAF2BAF56F6DD7F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		99651C783483691E83FF9427 = {
+			isa = PBXFileReference;
+			name = "windowplugin";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Window.2/libwindowplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		98A6F44E998318706EE6D8E1 = {
+			fileRef = "99651C783483691E83FF9427";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F864B8A85B1DD7F33B9A064D = {
+			isa = PBXFileReference;
+			name = "qtgraphicaleffectsplugin";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F1352EA5876FE4D82040811D = {
+			fileRef = "F864B8A85B1DD7F33B9A064D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9F8F065979BA2599C0D18D88 = {
+			isa = PBXFileReference;
+			name = "qtquicktemplates2plugin";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Templates.2/libqtquicktemplates2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C34F63246849AE395DFF50C5 = {
+			fileRef = "9F8F065979BA2599C0D18D88";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		77B571DA53C24036BEAEADB4 = {
+			isa = PBXFileReference;
+			name = "Qt5QuickTemplates2";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5QuickTemplates2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F5471A578CE9DDBE06BD867D = {
+			fileRef = "77B571DA53C24036BEAEADB4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1EB61848BA10174FBCF652CA = {
+			isa = PBXFileReference;
+			name = "qtgraphicaleffectsprivate";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		65F35B86736BA8DB5A0E38E5 = {
+			fileRef = "1EB61848BA10174FBCF652CA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B876FFF0C04CD0F6B34ED3A = {
+			isa = PBXFileReference;
+			name = "qquicklayoutsplugin";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Layouts/libqquicklayoutsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4F0205DC060191BAE212B0C9 = {
+			fileRef = "2B876FFF0C04CD0F6B34ED3A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		11095940521A73DAC9A10CB3 = {
+			isa = PBXFileReference;
+			name = "declarative_multimedia";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/qml/QtMultimedia/libdeclarative_multimedia$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		C8FE6B1F6B23BFB1A8E74A81 = {
+			fileRef = "11095940521A73DAC9A10CB3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		47334EECD0124386C91230BA = {
+			isa = PBXFileReference;
+			name = "Qt5MultimediaQuick";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5MultimediaQuick$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3B86647D7F4A8F6111DB2228 = {
+			fileRef = "47334EECD0124386C91230BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FA9D0A03E5ED92677F329ECA = {
+			isa = PBXFileReference;
+			name = "Qt5Multimedia";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5Multimedia$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4796765891D312D3B29C0FFA = {
+			fileRef = "FA9D0A03E5ED92677F329ECA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B680B2AB02F09DC7207F1190 = {
+			isa = PBXFileReference;
+			name = "Qt5Quick";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5Quick$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3B806EFA43124677160A3FC6 = {
+			fileRef = "B680B2AB02F09DC7207F1190";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		23406F24BD795E0CC9B2AED1 = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		634D5953FE669B48D55A5E0B = {
+			fileRef = "23406F24BD795E0CC9B2AED1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		75C93F8ACA6E4A79DCEA6DAB = {
+			isa = PBXFileReference;
+			name = "qtlibpng";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libqtlibpng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A4430C52BFA273FFCB20741A = {
+			fileRef = "75C93F8ACA6E4A79DCEA6DAB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6EDB8E2990F3CA4822EB78F1 = {
+			isa = PBXFileReference;
+			name = "qtharfbuzz";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libqtharfbuzz$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		49B217E689F225A47588CF0A = {
+			fileRef = "6EDB8E2990F3CA4822EB78F1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E408C1ED8A98618D8E311386 = {
+			isa = PBXFileReference;
+			name = "Qt5Qml";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5Qml$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7E1C789CB7190E8D3B5B734E = {
+			fileRef = "E408C1ED8A98618D8E311386";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE3FD9FED432AA90D2F0746C = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		750204D638B4E59CD977C429 = {
+			fileRef = "BE3FD9FED432AA90D2F0746C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0DAB6F17145531C85BEF90E0 = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		13A53D89356F746DD85FF008 = {
+			fileRef = "0DAB6F17145531C85BEF90E0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		107CE17D798A1B8A1D2CF920 = {
+			isa = PBXFileReference;
+			name = "qtpcre2";
+			path = "/Users/christopherforte/Qt/5.10.1/ios/lib/libqtpcre2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A0D85ACB788D549ED2371059 = {
+			fileRef = "107CE17D798A1B8A1D2CF920";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"FCC237CA5AD60B9BA4447615",
+				"7EC00404ACD5AB0E97726B0E",
+				"3C44131FDCFEF4396B9EA2BA",
+				"4D765E1B1EA6C757220C63E7",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"7D7B02101166B76FD2D4F8B4",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"DE412D74AB489C1018DEB193",
+				"BEF9DFDA6822604126A7E233",
+				"547CCADBD1CC5050167EF948",
+				"F923F38E989CF0F61A164DD8",
+				"205259EEEE2BADA5E64741E3",
+				"21F907AB8D19BD779147A085",
+				"9CB1CFFA684E8E79829080E5",
+				"037D2AF88CBAAC00101B7BED",
+				"F8D707FD4B38050E5BF605FC",
+				"082776EA83BD41F566C32224",
+				"4CA40E152E9852897AB6CB7A",
+				"DF498065C45048EA57B59A5C",
+				"D15B38989F1FCC0D44AF61B3",
+				"9031174ABDFB2C9D6D1CB789",
+				"3B6FF1BFA0DFE8CF393FE85D",
+				"4581C86F515A849579AFB5EF",
+				"4961EBFE082215CCEFC9AD8C",
+				"4C81F360656D049423B55C82",
+				"B95849F2F3DD265FAA3F4DA8",
+				"3F8405FF9A86F05926D68B64",
+				"70D03DC05AA6317C78C2BD5B",
+				"2280AFD29AFE405BD26B186F",
+				"03533EA902A01AF4C4EF6C6B",
+				"738A800B4510D2DA6268D6F9",
+				"72FEF5C61CCD6B0B91E47735",
+				"D9983A196BD019D2E85EE799",
+				"DF1022B5DFA0B592668116D8",
+				"6313C82DA39A1A14E8F36C19",
+				"3F6AE67DB21F4D36AC7AF4E0",
+				"6386F9BC616F662565BAABFD",
+				"BAF0E1C19492E40C375E7A1B",
+				"4AE0DE166A19227AE0DF492E",
+				"D050611641453E4317458BF7",
+				"262B64448EF0BEEBDCADC082",
+				"3FD991B5735A789EF0C017D6",
+				"37DABB3F212026E63070A125",
+				"F886CBC53EEFA8C3943670F4",
+				"DCAC1625F756C9F1C1647CF1",
+				"62068DC736F5EAB2432545A4",
+				"58D9F4185F563F6C5594E859",
+				"10D25474CDAA5F45FB3ECF59",
+				"14D1948EEBAF2BAF56F6DD7F",
+				"99651C783483691E83FF9427",
+				"F864B8A85B1DD7F33B9A064D",
+				"9F8F065979BA2599C0D18D88",
+				"77B571DA53C24036BEAEADB4",
+				"1EB61848BA10174FBCF652CA",
+				"2B876FFF0C04CD0F6B34ED3A",
+				"11095940521A73DAC9A10CB3",
+				"47334EECD0124386C91230BA",
+				"FA9D0A03E5ED92677F329ECA",
+				"B680B2AB02F09DC7207F1190",
+				"23406F24BD795E0CC9B2AED1",
+				"75C93F8ACA6E4A79DCEA6DAB",
+				"6EDB8E2990F3CA4822EB78F1",
+				"E408C1ED8A98618D8E311386",
+				"BE3FD9FED432AA90D2F0746C",
+				"0DAB6F17145531C85BEF90E0",
+				"107CE17D798A1B8A1D2CF920");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"F26454630C80841CBDCFE1CA",
+				"B460F624007324313696BE86",
+				"4EB68D0C8182BCE33529C421",
+				"F8B465CE34D8DF87AAE95913",
+				"0CE02722F00CAD43741297B5",
+				"2B02D9DC58A01E45248DDBCE",
+				"61EEC397DC8556BF8C4E36A7",
+				"95DD8EAD339C33234F2796DA",
+				"35A1A39F8EAB37889EB3D397",
+				"B78304F135DEF1F7A68393A6",
+				"6602E41D28CF886E694AD752",
+				"15364689D2AB5A30E87A689F",
+				"CCA737EE379CDB10CC9A0F23",
+				"C71F572625156991F3EDF894",
+				"9E11AB13F04F6D23D3E359A9",
+				"C90FCB829F7DA54CE74F3F3B",
+				"998367604A6F6BCF0132E5EA",
+				"6DCDB7CBD1FC6EA0B6B81A45",
+				"4E9D65C2E542A376F8A930C5",
+				"900C71AF3B524550CD4CE10C",
+				"DD4593F4F9B254A0B7CAA52B",
+				"F2DA71813F21891D5B784909",
+				"8FF35CE516630A12E10FE066",
+				"1B2ADF80E713521499E818EC",
+				"BFF930AEDE55B046F8E4FB90",
+				"F036818916BE4735548ABE02",
+				"D250767F980FE61DF079C345",
+				"F19ED4D654CC4ADF70FF2285",
+				"979D04C44AD8F34B0920D687",
+				"1872A08DE1B23B36AFFBB7C7",
+				"5C2672546655FF7AA44013B5",
+				"2AFA1B486852121C7E3DA566",
+				"32F48D946ECC49F3869A338C",
+				"5F70957027251C13242C6B1A",
+				"8B054E8349BE94059F9EDEDD",
+				"4B8C47C77628918619CD0443",
+				"4B2C61CDA033DF768C4FA67B",
+				"2D4272967152D2C2141B190F",
+				"0EC842FB2A274A07F3F76FD5",
+				"C4207FF1D867801A7EC00675",
+				"5EFB07AF32756DA9CF93024D",
+				"053853A027794CAAF8E78DEA",
+				"6023C671D940312AC505929D",
+				"B061862E0F6E56C0DD81EFBA",
+				"7365AE4CF6A9DA79A4C17A18",
+				"8424C01CEAA1F97EF09FB08E",
+				"973AC82ECEA8EA0D456623CD",
+				"F2EF1AF705A76A4DB666C9E7",
+				"13F60502532D4FCD12B1A55E",
+				"98A6F44E998318706EE6D8E1",
+				"F1352EA5876FE4D82040811D",
+				"C34F63246849AE395DFF50C5",
+				"F5471A578CE9DDBE06BD867D",
+				"65F35B86736BA8DB5A0E38E5",
+				"4F0205DC060191BAE212B0C9",
+				"C8FE6B1F6B23BFB1A8E74A81",
+				"3B86647D7F4A8F6111DB2228",
+				"4796765891D312D3B29C0FFA",
+				"3B806EFA43124677160A3FC6",
+				"634D5953FE669B48D55A5E0B",
+				"A4430C52BFA273FFCB20741A",
+				"49B217E689F225A47588CF0A",
+				"7E1C789CB7190E8D3B5B734E",
+				"750204D638B4E59CD977C429",
+				"13A53D89356F746DD85FF008",
+				"A0D85ACB788D549ED2371059");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		FD6AE53BE51F46485AA89965 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/ThreeBxConverter.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		61C43EC61790A55FBE114CD6 = {
+			fileRef = "FD6AE53BE51F46485AA89965";
+			isa = PBXBuildFile;
+		};
+		8F027348B778E8835B7B4D42 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/ThreeBxConverter.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		1DB1DD7C2C2F3CEF73037D54 = {
+			fileRef = "8F027348B778E8835B7B4D42";
+			isa = PBXBuildFile;
+		};
+		BFBE8351484EE3B4B00A5967 = {
+			isa = PBXFileReference;
+			path = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/ios/Images.xcassets";
+			name = "Images.xcassets";
+			sourceTree = "<absolute>";
+		};
+		0CA1D8169A0516A8A58248DC = {
+			fileRef = "BFBE8351484EE3B4B00A5967";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"FD6AE53BE51F46485AA89965",
+				"8F027348B778E8835B7B4D42",
+				"BFBE8351484EE3B4B00A5967");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"61C43EC61790A55FBE114CD6",
+				"1DB1DD7C2C2F3CEF73037D54",
+				"0CA1D8169A0516A8A58248DC");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7C2ED1557ACA47E8831A6D = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "ThreeBxConverter.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"9F7C2ED1557ACA47E8831A6D");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"87DF60DE337FB58864343E39",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "ThreeBxConverter";
+			sourceTree = "<group>";
+		};
+		3D427712BD0788F72F906F3B = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		861D068B64FD2CC0E48D3762 = {
+			isa = PBXTargetDependency;
+			target = "3D427712BD0788F72F906F3B";
+		};
+		1A226998ABC4D0210A3176AE = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"861D068B64FD2CC0E48D3762");
+			productReference = "9F7C2ED1557ACA47E8831A6D";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "ThreeBxConverter";
+			productName = "ThreeBxConverter";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				DEVELOPMENT_TEAM = "F37PQM36J6";
+				ENABLE_BITCODE = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.threeb.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ThreeBxConverter";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "../ThreeBxConverter/ios/Info.plist";
+				SYMROOT = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../ThreeBxConverter",
+					".",
+					"/Users/christopherforte/Qt/5.10.1/ios/mkspecs/common/uikit",
+					"../Core",
+					"../ThreeBxConverter/QzXing",
+					"../ThreeBxConverter/QzXing/zxing",
+					"/Users/christopherforte/Qt/5.10.1/ios/include",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtQuick",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtMultimedia",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtGui",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtQml",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtNetwork",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtCore",
+					".",
+					"/Users/christopherforte/Qt/5.10.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/christopherforte/Qt/5.10.1/ios/lib",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/mediaservice",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/audio",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/playlistformats",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/bearer",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Controls.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Window.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Templates.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects/private",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Layouts",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtMultimedia");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-gdwarf-2",
+					"-O2",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_NO_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-gdwarf-2",
+					"-O2",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_NO_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/mediaservice",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/audio",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/playlistformats",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/bearer",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Controls.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Window.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Templates.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects/private",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Layouts",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtMultimedia",
+						"-lm",
+						"-lz");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				DEVELOPMENT_TEAM = "F37PQM36J6";
+				ENABLE_BITCODE = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.threeb.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ThreeBxConverter";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "ThreeBxConverter";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "F37PQM36J6";
+				ENABLE_BITCODE = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.threeb.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ThreeBxConverter";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "../ThreeBxConverter/ios/Info.plist";
+				SYMROOT = "/Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/build-ThreeBxConverter-Qt_5_10_1_for_iOS-Release/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../ThreeBxConverter",
+					".",
+					"/Users/christopherforte/Qt/5.10.1/ios/mkspecs/common/uikit",
+					"../Core",
+					"../ThreeBxConverter/QzXing",
+					"../ThreeBxConverter/QzXing/zxing",
+					"/Users/christopherforte/Qt/5.10.1/ios/include",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtQuick",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtMultimedia",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtGui",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtQml",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtNetwork",
+					"/Users/christopherforte/Qt/5.10.1/ios/include/QtCore",
+					".",
+					"/Users/christopherforte/Qt/5.10.1/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/christopherforte/Qt/5.10.1/ios/lib",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/mediaservice",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/audio",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/playlistformats",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling",
+					"/Users/christopherforte/Qt/5.10.1/ios/plugins/bearer",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Controls.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Window.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Templates.2",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects/private",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Layouts",
+					"/Users/christopherforte/Qt/5.10.1/ios/qml/QtMultimedia");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-gdwarf-2",
+					"-O2",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_NO_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-gdwarf-2",
+					"-O2",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQZXING_LIBRARY",
+					"-DZXING_ICONV_CONST",
+					"-DDISABLE_LIBRARY_FEATURES",
+					"-DQZXING_MULTIMEDIA",
+					"-DQZXING_QML",
+					"-DNOFMAXL",
+					"-DNO_ICONV",
+					"-DQT_NO_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-Wl,-e,_qt_main_wrapper",
+						"-Wl,-rpath,@executable_path/Frameworks",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/mediaservice",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/audio",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/playlistformats",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/imageformats",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/qmltooling",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/plugins/bearer",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Controls.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Window.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Templates.2",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtGraphicalEffects/private",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtQuick/Layouts",
+						"-L/Users/christopherforte/Qt/5.10.1/ios/qml/QtMultimedia",
+						"-lm",
+						"-lz");
+				ARCHS = "arm64 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=iphoneos*]" = "arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "F37PQM36J6";
+				ENABLE_BITCODE = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.threeb.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ThreeBxConverter";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "ThreeBxConverter";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"1A226998ABC4D0210A3176AE",
+				"3D427712BD0788F72F906F3B");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/PDF417Decoder.cpp \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/PDF417Reader.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/Reader.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/BinaryBitmap.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Counted.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/BitMatrix.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/BitArray.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ZXing.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Types.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/IllegalArgumentException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/Exception.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Array.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/Binarizer.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/LuminanceSource.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/Result.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Str.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ResultPoint.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/BarcodeFormat.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/DecodeHints.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ResultPointCallback.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/Decoder.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ErrorCorrection.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/DecoderResult.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ModulusGF.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/ec/ModulusPoly.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/BitMatrixParser.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ReaderException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/FormatException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/pdf417/decoder/DecodedBitStreamParser.h \
+  ../ThreeBxConverter/QzXing/zxing/bigint/BigInteger.hh \
+  ../ThreeBxConverter/QzXing/zxing/bigint/BigUnsigned.hh \
+  ../ThreeBxConverter/QzXing/zxing/bigint/NumberlikeArray.hh

@@ -1,0 +1,12 @@
+dependencies: \
+  /Users/christopherforte/Documents/ThreeB/Development/ThreeBxConverter/ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.cpp \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonDecoder.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Counted.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/Array.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/GenericGFPoly.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/GenericGF.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/reedsolomon/ReedSolomonException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/Exception.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/common/IllegalArgumentException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/IllegalStateException.h \
+  ../ThreeBxConverter/QzXing/zxing/zxing/ReaderException.h
