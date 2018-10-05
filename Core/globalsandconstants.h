@@ -24,7 +24,7 @@ namespace AppWallets {
                                                                 {"DOGE",    "Dogecoin"},
                                                                 {"ETH",     "Ethereum"},
                                                                 {"XMR",     "Monero"},
-                                                                {"ZEN",     "ZenCash"},
+                                                                {"ZEN",     "Horizen"},
                                                                 {"DGB",     "DigiByte"},
                                                                 {"XRP",     "Ripple"},
                                                                 {"XLM",     "Stellar"},

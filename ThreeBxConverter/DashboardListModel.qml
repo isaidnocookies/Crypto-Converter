@@ -38,7 +38,7 @@ ListModel {
         imageName: "images/assets/moneroIcon.png"
     }
     ListElement {
-        name: "ZenCash"
+        name: "Horizen"
         shortName: "ZEN"
 
         imageName: "images/assets/zencashIcon.png"
